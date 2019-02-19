@@ -149,5 +149,10 @@
             </plugin>
         </plugins>
     </build>
-
+    <developers>
+    	<developer>
+    		<name>Ricardo Iannuzzi</name>
+    		<email>ricardo.iannuzzi@hotmail.com</email>
+    	</developer>
+    </developers>
 </project>
