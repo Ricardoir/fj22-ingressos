@@ -18,7 +18,7 @@ public class Carrinho {
 	}
 
 	public List<Ingresso> getIngresso() {
-		return getIngresso();
+		return ingressos;
 	}
 
 	public void setIngresso(List<Ingresso> ingresso) {

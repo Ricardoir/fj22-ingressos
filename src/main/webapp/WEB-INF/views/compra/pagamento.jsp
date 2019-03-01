@@ -19,7 +19,7 @@
                 </thead>
 
                 <tbody>
-                <c:forEach items="${carrinho.ingressos}" var="ingresso"
+                <c:forEach items="${carrinho.ingresso}" var="ingresso"
 							varStatus="status">
 
                     <input type="hidden"

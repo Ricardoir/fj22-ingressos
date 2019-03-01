@@ -51,11 +51,11 @@ public class CompraController {
 	return modelAndView;
 	}
 	
-	@GetMapping("/compra/comprar")
+	@PostMapping("/compra/comprar")
 	@Transactional
 	public ModelAndView comprar(@Valid Cartao cartao, BindingResult result) {
 		
-		ModelAndView modelAndView = new ModelAndView("redirect/");
+		ModelAndView modelAndView = new ModelAndView("redirect:/");
 		
 		if(cartao.isValido()) {
 			compraDao.save(carrinho.toCompra());
@@ -66,5 +66,6 @@ public class CompraController {
 
 	return modelAndView;
 	}
+	
 
 }
