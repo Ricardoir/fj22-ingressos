@@ -10,8 +10,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-import org.hibernate.annotations.ManyToAny;
-
 @Entity
 public class Ingresso {
 	
@@ -78,6 +76,14 @@ public class Ingresso {
 	
 	public void setPreco(BigDecimal preco) {
 		this.preco = preco;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 	
 
